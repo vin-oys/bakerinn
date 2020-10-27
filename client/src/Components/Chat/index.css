@@ -1,0 +1,142 @@
+.chat-root {
+  z-index: 30;
+}
+
+.chat-window {
+	box-sizing: border-box;
+  height: 400px;
+  width: 265px;
+  background-color: rgba(211, 225, 238);
+  border: 1px solid black;
+}
+
+.message-board {
+  margin: 5px auto;
+  height: 65%;
+  width: 250px;
+  background-color: white;
+  overflow: auto;
+}
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 265px;
+  z-index: 20;
+}
+
+.min-chat {
+  transform: translateY(350px)
+}
+
+.close-chat-buttons {
+	height: 30px;
+	text-align: right;
+}
+
+.close-chat-buttons * {
+	font-size: 15px;
+	width: 10%;
+	border: none;
+	margin-top: -30px;
+	background-color: rgba(0,0,0,0);
+}
+
+.on-close-bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.listing-item-chat {
+	font-size: 12px;
+	width: 100%;
+	overflow: auto;
+}
+
+.receiver-username {
+	font-size: 18px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 60%;
+}
+
+.transaction-option {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: right;
+	font-size: 10px;
+}
+
+.single-message {
+	padding: 3px 10px;
+	margin: 1px;
+}
+
+.single-message:not(:last-child) {
+	border-bottom: 0.5px solid lightgray;
+}
+
+.single-message.sender *{
+	text-align: right;
+
+}
+
+.message-sender {
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+.message-receiver {
+	font-size: 15px;
+	font-weight: bold;
+	color: darkblue;
+}
+
+.message-text {
+	font-size: 14px;
+}
+
+.message-input {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.message-input [type="text"] {
+	background-color: white;
+	border: 1px solid black;
+	width: 85%;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.message-input [type="submit"] {
+	background-color: white;
+	padding: 8px 3px;
+	border: none;
+	font-size: 10px;
+}
+
+.listing-info > * {
+	line-height: 1.2
+}
+
+.listing-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 50px;
+}

@@ -1,0 +1,13 @@
+.discovery {
+  height: 350px;
+  margin: 15px 0;
+}
+
+.discovery > * {
+  margin: 0;
+  padding: 0;
+}
+
+.callToAction:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255,255,255,0.5);
+}

@@ -1,0 +1,49 @@
+.col, .row {
+    border-style: none;
+}
+
+.singleListing {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.breadcrumb-position {
+	position: relative;
+	top: 40px;
+
+}
+
+.userInfo {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.user {
+    padding: 20px;
+}
+
+.itemInfo .itemState {
+	line-height: 0.5;
+	font-size: 12px;
+
+}
+
+image {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.itemImage {
+    padding-top: 50px;
+}
+
+button {
+    width: 100px;
+    margin-top: 40px;
+}

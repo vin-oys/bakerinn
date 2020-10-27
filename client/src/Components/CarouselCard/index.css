@@ -1,0 +1,5 @@
+.carousel-item-thing:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  z-index: 15;
+}

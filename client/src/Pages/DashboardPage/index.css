@@ -1,0 +1,9 @@
+.dashboard-header {
+	margin: 30px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+.dashboard-header > h3 {
+	font-size: 30px;
+}

@@ -1,0 +1,49 @@
+.intro-title {
+  margin-top: 25px;
+}
+
+.intro-cards-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-cards {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 25px;
+  width:30%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro-title > h3 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.intro-cards > div {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.intro-cards-image1 {
+  content: url(./image/flour.png);
+}
+
+.intro-cards-image2 {
+  content: url(./image/search.png)
+
+}
+
+.intro-cards-image3 {
+  content: url(./image/conversation.png);
+}
+
+.intro-banner-box {
+  height: 320px;
+  width: 100%;
+}

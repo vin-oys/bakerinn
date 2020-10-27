@@ -1,0 +1,57 @@
+.carousel-container {
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: gainsboro;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.empty-carousel {
+  height: 200px;
+}
+
+/* experimental */
+.next {
+  box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.next:hover {
+  cursor: pointer;
+  transition: transform 0.05s linear;
+  transform: scale(1.22);
+}
+
+.next:active {
+  transition: transform ease-out;
+  transform: scale(1.35);
+}
+
+.carousel-body div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+
+.carou-title {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+}
+
+.carou-title span {
+  background:#fff; 
+  padding:0 10px;
+}
+

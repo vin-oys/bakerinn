@@ -1,0 +1,12 @@
+// node modules
+/node_modules
+
+//Claire testing env
+/client/src/Pages/tempTest.js
+/client/src/Pages/tempTest2.js
+updateUserChats.js
+
+// dev database
+.env
+
+.DS_Store
